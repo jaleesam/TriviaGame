@@ -1,12 +1,49 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Emoji Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
-    
+<div id=banner><h1>The Emoji Game</h1></div>
+
+<div id=quiz class=whole>
+    <div id=start class=button></div>
+    <div id=quest></div>
+    <div id=done class=button></div>
+    <div id=results></div>
+</div>
+
+    <script type="text/javascript" src="javascript/app.js"></script>
 </body>
 </html>
+
+<!-- When page first loads:
+    A line for instructions
+    -a lone start button on the page
+
+    When start button is pushed this happens:
+    -8 to 10 questions
+    -4 answers each mutilple choice style 
+    - only one answer per can be selected per question
+    -timer starts count down 
+    -done button is at bottom of quiz
+
+    Quiz ends When:
+    Timer runs our
+    -or-
+    The done button is pushed
+
+    At ends of game:
+    -Quiz disappears
+    -Line that says "Quiz over"
+   - Posted number of correct answers 
+   -Posted number of incorrect answers
+  - Posted number of unaswered answers
+    
+
+-->

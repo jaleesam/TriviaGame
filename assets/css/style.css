@@ -1,3 +1,14 @@
 body{
-    background-image: url(../images/paper.jpg)
+    background-image: url(../images/BluePokaDots.jpg);
 }
+#banner{
+    background-color:#4cd2ff;
+    color:red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 24px;
+    width:50%;
+    border-radius: 25px;
+}
+
