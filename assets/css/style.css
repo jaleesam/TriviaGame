@@ -7,8 +7,46 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 0 auto; 
-    font-size: 24px;
     width:50%;
+    font-size: 24px;
     border-radius: 25px;
 }
 
+#quiz{
+    background-color:#4cd2ff; opacity:0.5;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 25px;
+
+}
+
+#startB {
+    width:40%;
+    margin-left: 30%;
+    margin-right:30%;  
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #d93434, #992222);
+    background-image: -moz-linear-gradient(top, #d93434, #992222);
+    background-image: -ms-linear-gradient(top, #d93434, #992222);
+    background-image: -o-linear-gradient(top, #d93434, #992222);
+    background-image: linear-gradient(to bottom, #d93434, #992222);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 30px 40px 30px 40px;
+    text-decoration: none;
+  }
+  
+  #startB:hover {
+    background: #493cfc;
+    background-image: -webkit-linear-gradient(top, #493cfc, #262dbd);
+    background-image: -moz-linear-gradient(top, #493cfc, #262dbd);
+    background-image: -ms-linear-gradient(top, #493cfc, #262dbd);
+    background-image: -o-linear-gradient(top, #493cfc, #262dbd);
+    background-image: linear-gradient(to bottom, #493cfc, #262dbd);
+    text-decoration: none;
+  }
